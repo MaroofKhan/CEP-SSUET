@@ -17,6 +17,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
     }
     
+    
+    // MARK: TableView DataSource
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
     }
@@ -32,10 +34,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     
+    // MARK: TabelView Delegate
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         println("Selected")
     }
     
+    
+    // MARK: ScrollView Delegate
     func scrollViewDidScroll(scrollView: UIScrollView) {
         println("Scroll")
     }

@@ -6,6 +6,9 @@
 //  Copyright (c) 2015 Panaswift Teachers. All rights reserved.
 //
 
+
+//GUIDE: https://www.firebase.com/docs/ios/guide/
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -19,29 +22,17 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
 //        self.baseRef.setValue(["Name":"Ali"])
-        
 //        self.baseRef.updateChildValues(["Name":"Mohsin"])
-        
-        
-        
-  
 //        let dataRef = self.baseRef.childByAppendingPath("data")
-        
 //        dataRef.updateChildValues(["age": 24])
-  
-        
 //        let autoRef = self.baseRef.childByAutoId()
 //        
 //        autoRef.updateChildValues(["City":"Karachi"])
 
         
         self.baseRef.observeEventType(FEventType.Value, withBlock: { (fdata) -> Void in
-            
             println(fdata)
-            
             let data = fdata.value["Name"] as? String
-            
-
             
             if data != nil {
                 self.lbl.text = data

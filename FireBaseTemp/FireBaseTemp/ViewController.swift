@@ -26,7 +26,6 @@ class ViewController: UIViewController {
 //        let dataRef = self.baseRef.childByAppendingPath("data")
 //        dataRef.updateChildValues(["age": 24])
 //        let autoRef = self.baseRef.childByAutoId()
-//        
 //        autoRef.updateChildValues(["City":"Karachi"])
 
         

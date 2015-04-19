@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C88BD28F1AE3D01300E7BB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD28E1AE3D01300E7BB73 /* AppDelegate.swift */; };
+		C88BD2921AE3D01300E7BB73 /* Farigh_Works.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C88BD2901AE3D01300E7BB73 /* Farigh_Works.xcdatamodeld */; };
+		C88BD2941AE3D01300E7BB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD2931AE3D01300E7BB73 /* ViewController.swift */; };
+		C88BD2971AE3D01300E7BB73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88BD2951AE3D01300E7BB73 /* Main.storyboard */; };
+		C88BD2991AE3D01300E7BB73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88BD2981AE3D01300E7BB73 /* Images.xcassets */; };
+		C88BD29C1AE3D01300E7BB73 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C88BD29A1AE3D01300E7BB73 /* LaunchScreen.xib */; };
+		C88BD2A81AE3D01300E7BB73 /* Farigh_WorksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88BD2A71AE3D01300E7BB73 /* Farigh_WorksTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88BD2A21AE3D01300E7BB73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88BD2811AE3D01300E7BB73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C88BD2881AE3D01300E7BB73;
+			remoteInfo = "Farigh Works";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C88BD2891AE3D01300E7BB73 /* Farigh Works.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Farigh Works.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88BD28D1AE3D01300E7BB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88BD28E1AE3D01300E7BB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C88BD2911AE3D01300E7BB73 /* Farigh_Works.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Farigh_Works.xcdatamodel; sourceTree = "<group>"; };
+		C88BD2931AE3D01300E7BB73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C88BD2961AE3D01300E7BB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C88BD2981AE3D01300E7BB73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C88BD29B1AE3D01300E7BB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C88BD2A11AE3D01300E7BB73 /* Farigh WorksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Farigh WorksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88BD2A61AE3D01300E7BB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88BD2A71AE3D01300E7BB73 /* Farigh_WorksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Farigh_WorksTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88BD2861AE3D01300E7BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BD29E1AE3D01300E7BB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88BD2801AE3D01300E7BB73 = {
+			isa = PBXGroup;
+			children = (
+				C88BD28B1AE3D01300E7BB73 /* Farigh Works */,
+				C88BD2A41AE3D01300E7BB73 /* Farigh WorksTests */,
+				C88BD28A1AE3D01300E7BB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C88BD28A1AE3D01300E7BB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C88BD2891AE3D01300E7BB73 /* Farigh Works.app */,
+				C88BD2A11AE3D01300E7BB73 /* Farigh WorksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C88BD28B1AE3D01300E7BB73 /* Farigh Works */ = {
+			isa = PBXGroup;
+			children = (
+				C88BD28E1AE3D01300E7BB73 /* AppDelegate.swift */,
+				C88BD2931AE3D01300E7BB73 /* ViewController.swift */,
+				C88BD2951AE3D01300E7BB73 /* Main.storyboard */,
+				C88BD2981AE3D01300E7BB73 /* Images.xcassets */,
+				C88BD29A1AE3D01300E7BB73 /* LaunchScreen.xib */,
+				C88BD2901AE3D01300E7BB73 /* Farigh_Works.xcdatamodeld */,
+				C88BD28C1AE3D01300E7BB73 /* Supporting Files */,
+			);
+			path = "Farigh Works";
+			sourceTree = "<group>";
+		};
+		C88BD28C1AE3D01300E7BB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88BD28D1AE3D01300E7BB73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C88BD2A41AE3D01300E7BB73 /* Farigh WorksTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88BD2A71AE3D01300E7BB73 /* Farigh_WorksTests.swift */,
+				C88BD2A51AE3D01300E7BB73 /* Supporting Files */,
+			);
+			path = "Farigh WorksTests";
+			sourceTree = "<group>";
+		};
+		C88BD2A51AE3D01300E7BB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C88BD2A61AE3D01300E7BB73 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C88BD2881AE3D01300E7BB73 /* Farigh Works */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88BD2AB1AE3D01300E7BB73 /* Build configuration list for PBXNativeTarget "Farigh Works" */;
+			buildPhases = (
+				C88BD2851AE3D01300E7BB73 /* Sources */,
+				C88BD2861AE3D01300E7BB73 /* Frameworks */,
+				C88BD2871AE3D01300E7BB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Farigh Works";
+			productName = "Farigh Works";
+			productReference = C88BD2891AE3D01300E7BB73 /* Farigh Works.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88BD2A01AE3D01300E7BB73 /* Farigh WorksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88BD2AE1AE3D01300E7BB73 /* Build configuration list for PBXNativeTarget "Farigh WorksTests" */;
+			buildPhases = (
+				C88BD29D1AE3D01300E7BB73 /* Sources */,
+				C88BD29E1AE3D01300E7BB73 /* Frameworks */,
+				C88BD29F1AE3D01300E7BB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88BD2A31AE3D01300E7BB73 /* PBXTargetDependency */,
+			);
+			name = "Farigh WorksTests";
+			productName = "Farigh WorksTests";
+			productReference = C88BD2A11AE3D01300E7BB73 /* Farigh WorksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88BD2811AE3D01300E7BB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Panaswift Teachers";
+				TargetAttributes = {
+					C88BD2881AE3D01300E7BB73 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C88BD2A01AE3D01300E7BB73 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C88BD2881AE3D01300E7BB73;
+					};
+				};
+			};
+			buildConfigurationList = C88BD2841AE3D01300E7BB73 /* Build configuration list for PBXProject "Farigh Works" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88BD2801AE3D01300E7BB73;
+			productRefGroup = C88BD28A1AE3D01300E7BB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C88BD2881AE3D01300E7BB73 /* Farigh Works */,
+				C88BD2A01AE3D01300E7BB73 /* Farigh WorksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88BD2871AE3D01300E7BB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88BD2971AE3D01300E7BB73 /* Main.storyboard in Resources */,
+				C88BD29C1AE3D01300E7BB73 /* LaunchScreen.xib in Resources */,
+				C88BD2991AE3D01300E7BB73 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BD29F1AE3D01300E7BB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88BD2851AE3D01300E7BB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88BD2941AE3D01300E7BB73 /* ViewController.swift in Sources */,
+				C88BD28F1AE3D01300E7BB73 /* AppDelegate.swift in Sources */,
+				C88BD2921AE3D01300E7BB73 /* Farigh_Works.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88BD29D1AE3D01300E7BB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88BD2A81AE3D01300E7BB73 /* Farigh_WorksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88BD2A31AE3D01300E7BB73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C88BD2881AE3D01300E7BB73 /* Farigh Works */;
+			targetProxy = C88BD2A21AE3D01300E7BB73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C88BD2951AE3D01300E7BB73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88BD2961AE3D01300E7BB73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C88BD29A1AE3D01300E7BB73 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C88BD29B1AE3D01300E7BB73 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C88BD2A91AE3D01300E7BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88BD2AA1AE3D01300E7BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88BD2AC1AE3D01300E7BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Farigh Works/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C88BD2AD1AE3D01300E7BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Farigh Works/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C88BD2AF1AE3D01300E7BB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Farigh WorksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farigh Works.app/Farigh Works";
+			};
+			name = Debug;
+		};
+		C88BD2B01AE3D01300E7BB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Farigh WorksTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Farigh Works.app/Farigh Works";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88BD2841AE3D01300E7BB73 /* Build configuration list for PBXProject "Farigh Works" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BD2A91AE3D01300E7BB73 /* Debug */,
+				C88BD2AA1AE3D01300E7BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88BD2AB1AE3D01300E7BB73 /* Build configuration list for PBXNativeTarget "Farigh Works" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BD2AC1AE3D01300E7BB73 /* Debug */,
+				C88BD2AD1AE3D01300E7BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C88BD2AE1AE3D01300E7BB73 /* Build configuration list for PBXNativeTarget "Farigh WorksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88BD2AF1AE3D01300E7BB73 /* Debug */,
+				C88BD2B01AE3D01300E7BB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C88BD2901AE3D01300E7BB73 /* Farigh_Works.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C88BD2911AE3D01300E7BB73 /* Farigh_Works.xcdatamodel */,
+			);
+			currentVersion = C88BD2911AE3D01300E7BB73 /* Farigh_Works.xcdatamodel */;
+			path = Farigh_Works.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C88BD2811AE3D01300E7BB73 /* Project object */;
+}

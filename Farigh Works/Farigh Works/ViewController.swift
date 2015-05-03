@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    var buttonTitle = "Random Button"
+    
+    @IBOutlet weak var button: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-
-    @IBAction func addItem(sender: UIButton) {
-        println("Add item pressed!")
     
+    @IBAction func pressButton(sender: AnyObject) {
+        
     }
+    
+    
 
 }
 
